@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Platforms>AnyCPU;x64</Platforms>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BitMiracle.LibTiff.NET" Version="2.4.649" />
+    <!--<PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.1.5350" />-->
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.9.0.20240103" />
+    <!--<PackageReference Include="NumSharp" Version="0.30.0" />-->
+    <PackageReference Include="Sdcb.LibRaw" Version="0.21.1.6" />
+    <PackageReference Include="Sdcb.LibRaw.runtime.win64" Version="0.21.1" />
+    <!-- <Reference Include="SpinnakerNETd_v140">
+      <HintPath>C:\Program Files\Teledyne\Spinnaker\bin64\vs2015\SpinnakerNETd_v140.dll</HintPath>
+    </Reference> -->
+    <Reference Include="SpinnakerNET_v140">
+      <HintPath>C:\Program Files\Teledyne\Spinnaker\bin64\vs2015\SpinnakerNET_v140.dll</HintPath>
+    </Reference>
+    <PackageReference Include="GenICam" Version="2.1.5.1" />
+  </ItemGroup>
+
+</Project>
